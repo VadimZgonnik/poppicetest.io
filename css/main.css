@@ -459,3 +459,7 @@ header {
     text-align: center;
     margin-bottom: 40px;
 }
+
+.multi-item-carousel .carousel-inner .item {
+    transition: .6s ease-in-out all;
+}
