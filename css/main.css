@@ -177,6 +177,8 @@ header {
 }
 
 .h-form {
+    background-color: rgba(52, 53, 58, 0.8);
+    border-radius: 5px;
     width: 850px;
     height: 150px;
     display: flex;
@@ -421,6 +423,22 @@ header {
 .slider input {
     margin-top: 40px;
     margin-bottom: 15px;
+}
+
+.range {
+    -webkit-appearance: none;
+    background: -webkit-linear-gradient(left, #1db1ae 0%, #1db1ae 5%, #e4e4e4 5%, #e4e4e4 100%);
+    border: 1px solid #e4e4e4;
+    height: 3px;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #1db1ae;
+    cursor: pointer;
 }
 
 .elements {
