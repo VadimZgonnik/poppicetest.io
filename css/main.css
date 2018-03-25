@@ -384,7 +384,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     align-items: center;
 }
@@ -460,6 +460,56 @@ header {
     margin-bottom: 40px;
 }
 
-.multi-item-carousel .carousel-inner .item {
-    transition: .6s ease-in-out all;
+.testimonials {
+    background-color: #1db1ae;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.comments h6 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin: 80px 0 70px 0;
+}
+
+.sl {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.sl-slide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    max-width: 270px;
+    color: white;
+    margin: 0 50px;
+}
+
+.sl-text {
+    margin-bottom: 25px;
+}
+
+.sl-line {
+    width: 270px;
+}
+
+.sl-slide img {
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
